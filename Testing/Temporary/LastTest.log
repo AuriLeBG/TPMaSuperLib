@@ -1,0 +1,38 @@
+Start testing: Feb 22 14:29 CET
+----------------------------------------------------------
+1/1 Testing: masuperlib-test
+1/1 Test: masuperlib-test
+Command: "/home/toto/Documents/TPMaSuperLib/masuperlib-test"
+Directory: /home/toto/Documents/TPMaSuperLib
+"masuperlib-test" start time: Feb 22 14:29 CET
+Output:
+----------------------------------------------------------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+masuperlib-test is a Catch v2.13.10 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+mul2 21
+-------------------------------------------------------------------------------
+/home/toto/Documents/TPMaSuperLib/test/masuperlib/masuperlib-test.cpp:9
+...............................................................................
+
+/home/toto/Documents/TPMaSuperLib/test/masuperlib/masuperlib-test.cpp:10: FAILED:
+  REQUIRE( masuperlib::mul2(21) == 42 )
+with expansion:
+  63 == 42
+
+===============================================================================
+test cases: 2 | 1 passed | 1 failed
+assertions: 2 | 1 passed | 1 failed
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"masuperlib-test" end time: Feb 22 14:29 CET
+"masuperlib-test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 22 14:29 CET
