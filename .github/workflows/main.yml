@@ -21,6 +21,6 @@ jobs:
         cmake CMakeLists.txt 
         make
         
-    -name: Run Test
+    - name: Run Test
       run: make test
       
