@@ -20,3 +20,7 @@ jobs:
       run: |
         cmake CMakeLists.txt 
         make
+        
+    -name: Run Test
+      run: make test
+      
